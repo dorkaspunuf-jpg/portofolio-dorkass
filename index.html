@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dorkas Punuf | Portofolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar">
+  <div class="container nav-container">
+    <a href="#" class="logo">
+      <img src="logo-dorkas.png" alt="Logo Dorkas" class="logo-img">
+      <span>Dorkas Punuf</span>
+    </a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="#beranda">Beranda</a></li>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#keahlian">Keahlian</a></li>
+      <li><a href="#karya">Karya</a></li>
+      <li><a href="#pengalaman">Pengalaman</a></li>
+      <li><a href="#kontak">Kontak</a></li>
+    </ul>
+    <div class="nav-actions">
+      <button id="dark-toggle" class="dark-btn">🌙</button>
+      <a href="#kontak" class="btn-primary small">Hubungi Saya</a>
+    </div>
+    <button class="hamburger" id="hamburger"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+
+<!-- BERANDA -->
+<section class="hero" id="beranda">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <span class="badge">✨ Kreator & Profesional Muda</span>
+      <h1>Halo, Saya <span class="highlight">Dorkas Punuf</span></h1>
+      <h2>Mahasiswa TI Universitas San Pedro, Semester 3, NTT</h2>
+      <p>Saya membantu personal dan brand tampil profesional lewat desain 【entity-Figma¦canonical_name=Figma】, Maintenance Komputer, dan Website Portofolio yang Modern.</p>
+      <div class="hero-buttons">
+        <a href="#karya" class="btn-primary">Lihat Karya →</a>
+        <a href="cv-dorkas.pdf" target="_blank" class="btn-outline">📄 Lihat CV</a>
+      </div>
+      <div class="stats">
+        <div class="stat-box mint"><h3>3+</h3><p>Tahun Pengalaman</p></div>
+        <div class="stat-box peach"><h3>20+</h3><p>Proyek Selesai</p></div>
+        <div class="stat-box blue"><h3>15+</h3><p>Klien Puas</p></div>
+      </div>
+    </div>
+    <div class="hero-img">
+      <div class="profile-card">
+        <img src="logo-dorkas.png" alt="Dorkas Punuf">
+        <h3>Dorkas Punuf</h3>
+        <p>Kupang, NTT</p>
+        <span class="status">● Tersedia untuk Proyek</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- TENTANG -->
+<section class="section" id="tentang">
+  <div class="container">
+    <h2 class="section-title">Tentang Saya</h2>
+    <p class="section-desc">Saya Dorkas Punuf dari Kupang, NTT. Fokus pada desain aplikasi, perawatan komputer, dan pembuatan website portofolio yang rapi dan mudah digunakan.</p>
+    <div class="about-grid">
+      <div class="about-card"><h3>🎯 Visi</h3><p>Membantu UMKM dan personal brand di NTT tampil profesional di dunia digital.</p></div>
+      <div class="about-card"><h3>💡 Misi</h3><p>Membuat desain yang sederhana, cepat, dan mudah dipahami oleh semua orang.</p></div>
+      <div class="about-card"><h3>📍 Lokasi</h3><p>Kupang, Nusa Tenggara Timur, Indonesia.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- KEAHLIAN -->
+<section class="section" id="keahlian">
+  <div class="container">
+    <h2 class="section-title">Keahlian Saya</h2>
+    <div class="skills-grid">
+      <div class="skill-card">
+        <div class="skill-icon">🎨</div>
+        <h3>Desain Aplikasi Menggunakan Figma</h3>
+        <p>Desain UI/UX aplikasi mobile & web yang modern dan user-friendly.</p>
+        <button class="btn-outline small open-popup" data-popup="popup-【entity-figma¦canonical_name=Figma】">Lihat Isi</button>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">💻</div>
+        <h3>Maintenance Komputer</h3>
+        <p>Perawatan, perbaikan, dan optimalisasi komputer & laptop.</p>
+        <button class="btn-outline small open-popup" data-popup="popup-maintenance">Lihat Isi</button>
+      </div>
+      <div class="skill-card">
+        <div class="skill-icon">🌐</div>
+        <h3>Design Web Portofolio</h3>
+        <p>Pembuatan website portofolio yang cepat, responsif, dan profesional.</p>
+        <button class="btn-outline small open-popup" data-popup="popup-web">Lihat Isi</button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- POPUP KEAHLIAN -->
+<div id="popup-figma" class="popup">
+  <div class="popup-content">
+    <span class="close-popup">&times;</span>
+    <h3>Desain Aplikasi Menggunakan Figma</h3>
+    <p>Wireframe, prototype, desain UI aplikasi, dan desain yang siap dikembangkan.</p>
+    <p><b>Harga mulai:</b> Rp 150.000 / proyek</p>
+    <a href="https://wa.me/6281339492579?text=Halo%20Dorkas,%20saya%20mau%20pesan%20desain%20Figma" target="_blank" class="btn-primary small">Pesan via WhatsApp</a>
+  </div>
+</div>
+
+<div id="popup-maintenance" class="popup">
+  <div class="popup-content">
+    <span class="close-popup">&times;</span>
+    <h3>Maintenance Komputer</h3>
+    <p>Bongkar & rakit komputer, instal ulang, bersihkan virus, upgrade RAM / SSD.</p>
+    <p><b>Harga mulai:</b> Rp 50.000 / servis</p>
+    <a href="https://wa.me/6281339492579?text=Halo%20Dorkas,%20saya%20mau%20servis%20komputer" target="_blank" class="btn-primary small">Pesan via WhatsApp</a>
+  </div>
+</div>
+
+<div id="popup-web" class="popup">
+  <div class="popup-content">
+    <span class="close-popup">&times;</span>
+    <h3>Design Web Portofolio</h3>
+    <p>Website portofolio, landing page, website UMKM, dan website CV online.</p>
+    <p><b>Harga mulai:</b> Rp 250.000 / website</p>
+    <a href="https://wa.me/6281339492579?text=Halo%20Dorkas,%20saya%20mau%20buat%20website" target="_blank" class="btn-primary small">Pesan via WhatsApp</a>
+  </div>
+</div>
+
+<!-- KARYA -->
+<section class="section" id="karya">
+  <div class="container">
+    <h2 class="section-title">Karya Saya</h2>
+    <div class="skills-grid">
+      <div class="skill-card"><h3>Desain Aplikasi</h3><p>Desain aplikasi kasir & aplikasi belajar menggunakan 【entity-Figma¦canonical_name=Figma】.</p><span class="badge">Desain Aplikasi</span></div>
+      <div class="skill-card"><h3>Bongkar Komputer</h3><p>Perawatan dan upgrade komputer & laptop.</p><span class="badge">Bongkar Komputer</span></div>
+      <div class="skill-card"><h3>Pembuatan Web</h3><p>Website portofolio & website UMKM.</p><span class="badge">Pembuatan Web</span></div>
+      <div class="skill-card"><h3>Pembuatan CV</h3><p>CV profesional yang siap melamar kerja.</p><span class="badge">Pembuatan CV</span></div>
+      <div class="skill-card"><h3>Edit Video</h3><p>Edit video reels, promosi, dan dokumentasi.</p><span class="badge">Edit Video</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- PENGALAMAN -->
+<section class="section" id="pengalaman">
+  <div class="container">
+    <h2 class="section-title">Pengalaman</h2>
+    <div class="about-grid">
+      <div class="about-card"><h3>2023 - Sekarang</h3><p><b>Freelance Designer & Teknisi Komputer</b><br>Melayani 15+ klien di Kupang untuk desain, servis komputer, dan website.</p></div>
+      <div class="about-card"><h3>2024</h3><p><b>Proyek Kampus - Universitas San Pedro</b><br>Membuat desain aplikasi dan website portofolio untuk tugas & proyek kampus.</p></div>
+      <div class="about-card"><h3>2025</h3><p><b>Website Portofolio</b><br>Membangun portofolio online lengkap dengan CRUD karya & halaman CV.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- KONTAK -->
+<section class="section" id="kontak">
+  <div class="container">
+    <h2 class="section-title">Hubungi Saya</h2>
+    <p class="section-desc">Punya proyek? Chat saya langsung di WhatsApp.</p>
+    <div class="about-grid">
+      <div class="about-card"><h3>📧 Email</h3><p>dorkas.punuf@email.com</p></div>
+      <div class="about-card"><h3>📱 WhatsApp</h3><p>0813-3949-2579</p></div>
+      <div class="about-card"><h3>📸 Instagram</h3><p>@dorkaspunuf</p></div>
+    </div>
+    <br>
+    <form id="contact-form">
+      <input type="text" id="nama" placeholder="Nama Kamu" required style="padding:12px;width:100%;margin-bottom:10px;border-radius:8px;border:1px solid #ccc;">
+      <textarea id="pesan" placeholder="Tulis pesanmu..." required style="padding:12px;width:100%;height:100px;margin-bottom:10px;border-radius:8px;border:1px solid #ccc;"></textarea>
+      <button type="submit" class="btn-primary">Kirim via WhatsApp</button>
+    </form>
+  </div>
+</section>
+
+<footer style="text-align:center;padding:20px;background:#f3f4f6;">
+  <p>© 2026 Dorkas Punuf - Kupang, NTT</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
